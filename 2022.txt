@@ -1,0 +1,289 @@
+From dj@ndr|j@ @end|ng |rom gm@||@com  Tue Jan  4 14:55:42 2022
+From: dj@ndr|j@ @end|ng |rom gm@||@com (Andrija Djurovic)
+Date: Tue, 4 Jan 2022 14:55:42 +0100
+Subject: [R-pkgs] PDtoolkit: Collection of Tools for PD Rating Model
+ Development
+Message-ID: <CABcwgRRDj=V=CUp5gg=vHawRzGLXKy_uLFQMWxcyM0TsHZzhPg@mail.gmail.com>
+
+Dear R users,
+
+I am happy to announce that my new package PDtoolkit is now available on
+CRAN.
+
+The goal of this package is to cover the most common steps in probability
+of default (PD) rating model development and validation. The main
+procedures available are those that refer to univariate, bivariate,
+multivariate analysis, calibration and validation. Along with accompanied
+monobin and monobinShiny packages, PDtoolkit provides functions which are
+suitable for different data transformation and modeling tasks such as:
+imputations, monotonic binning of numeric risk factors, binning of
+categorical risk factors, weights of evidence (WoE) and information value
+(IV) calculations, WoE coding (replacement of risk factors modalities with
+WoE values), risk factor clustering, area under curve (AUC) calculation and
+others. Additionally, package provides set of validation functions for
+testing homogeneity, heterogeneity, discriminatory and predictive power of
+the model.
+
+For details and examples please check out the github page
+https://github.com/andrija-djurovic/PDtoolkit  or README file on CRAN page
+https://CRAN.R-project.org/package=PDtoolkit
+
+Best regards,
+Andrija Djurovic
+
+	[[alternative HTML version deleted]]
+
+
+From m@rt|n@@m|th @end|ng |rom durh@m@@c@uk  Tue Jan 11 12:12:13 2022
+From: m@rt|n@@m|th @end|ng |rom durh@m@@c@uk (Martin R. Smith)
+Date: Tue, 11 Jan 2022 11:12:13 +0000
+Subject: [R-pkgs] Fwd: Ternary 2.0: Holdridge life zones and ternary plots
+In-Reply-To: <CANotEPs8zWn5xJzuanqLV38VdpHFVnO2qS+iUWnpwkFDp8OTuA@mail.gmail.com>
+References: <CANotEPs8zWn5xJzuanqLV38VdpHFVnO2qS+iUWnpwkFDp8OTuA@mail.gmail.com>
+Message-ID: <CANotEPvg_U-vjwO=+BQU4Fp3gkqf6ekr0zQ+Rdeg8mSMNB=-HQ@mail.gmail.com>
+
+Dear R users,
+
+It is now possible to create and annotate Holdridge life zone plots using
+functions modelled on the standard graphics package using the the package
+"Ternary", whose v2.0 release is now available from CRAN:
+https://CRAN.R-project.org/package=Ternary .
+The vignette at https://ms609.github.io/Ternary/articles/Holdridge.html gives
+an example and pointers to detailed documentation.
+
+Ternary 2.0 also includes a complete 'shiny' graphical user interface to
+allow interactive construction of ternary plots without detailed knowledge
+of R.
+
+Regards,
+
+Martin Smith
+
+
+--
+
+*Dr. Martin R. Smith*
+Associate Professor in Palaeontology
+Durham University
+Department of Earth Sciences
+Mountjoy Site, South Road, Durham, DH1 3LE United Kingdom
+
+*M*: +44 (0)774 353 7510
+*E*: martin.smith at durham.ac.uk
+
+smithlabdurham.github.io
+twitter.com/PalaeoSmith
+
+The information in this e-mail and any attachments is co...{{dropped:13}}
+
+
+From m@rt|n@@m|th @end|ng |rom durh@m@@c@uk  Thu Jan 13 14:37:24 2022
+From: m@rt|n@@m|th @end|ng |rom durh@m@@c@uk (Martin R. Smith)
+Date: Thu, 13 Jan 2022 13:37:24 +0000
+Subject: [R-pkgs] Package "Rogue": Detect wildcard taxa in sets of
+ phylogenetic trees
+Message-ID: <CANotEPuHoVPYJ9W35rQniFmB035fD5Mf-axwUMFv-_T-V-jOYA@mail.gmail.com>
+
+Dear R users,
+
+Package "Rogue" has been published on CRAN:
+https://CRAN.R-project.org/package=Rogue.
+
+"Rogue" improves phylogenetic analysis by detecting wildcard taxa whose
+inconsistent position reduces split support and resolution in consensus
+trees.  It implements an effective new information-theoretic approach
+(Smith 2022, https://doi.org/10.1093/sysbio/syab099), and provides an R
+interface to the established "RogueNaRok" C library (Aberer et al. 2013,
+https://doi.org/10.1093/sysbio/sys078).
+
+A vignette demonstrating use on Bayesian posterior tree sets can be found
+at https://cran.r-project.org/web/packages/Rogue/vignettes/Bayesian.html.
+Questions and bug reports are welcome at https://github.com/ms609/Rogue.
+
+Regards,
+
+Martin Smith
+
+--
+
+*Dr. Martin R. Smith*
+Associate Professor in Palaeontology
+Durham University
+Department of Earth Sciences
+Mountjoy Site, South Road, Durham, DH1 3LE United Kingdom
+
+*M*: +44 (0)774 353 7510
+*E*: martin.smith at durham.ac.uk
+
+smithlabdurham.github.io
+twitter.com/PalaeoSmith
+
+The information in this e-mail and any attachments is co...{{dropped:13}}
+
+
+From m@rt|n@@m|th @end|ng |rom durh@m@@c@uk  Tue Jan 18 17:25:34 2022
+From: m@rt|n@@m|th @end|ng |rom durh@m@@c@uk (Martin R. Smith)
+Date: Tue, 18 Jan 2022 16:25:34 +0000
+Subject: [R-pkgs] Analysis of phylogenetic datasets in R: package
+ "TreeSearch"
+Message-ID: <CANotEPvuOsnHr1qihG5KAJ-BPjYRLC+2OA2e06xY=hCSzZyujA@mail.gmail.com>
+
+Dear R users,
+
+TreeSearch is an R package for phylogenetic analysis, optimized for
+morphological datasets. Tree search may be conducted using under equal or
+implied step weights with an explicit (albeit inexact) allowance for
+inapplicable character entries, avoiding some of the pitfalls inherent in
+standard parsimony methods. Profile parsimony and user-specified optimality
+criteria are supported.
+
+A graphical interface, which requires no familiarity with R, is designed to
+help a user to improve the quality of datasets through critical review of
+underpinning character codings; and to obtain additional information from
+results by identifying and summarising clusters of similar trees, mapping
+the distribution of trees, and removing ?rogue? taxa that obscure
+underlying relationships.
+
+Taken together, the package aims to support methodological rigour at each
+step of data collection, analysis, and the exploration of phylogenetic
+results.
+
+A stable release of TreeSearch is now on CRAN:
+https://CRAN.R-project.org/package=TreeSearch
+
+An introduction to the package is provided in the vignette:
+https://ms609.github.io/TreeSearch/articles/tree-search.html
+
+Further details are in the BioR?iv preprint:
+https://www.biorxiv.org/content/10.1101/2021.11.08.467735
+
+Regards,
+
+Martin
+
+
+--
+
+*Dr. Martin R. Smith*
+Associate Professor in Palaeontology
+Durham University
+Department of Earth Sciences
+Mountjoy Site, South Road, Durham, DH1 3LE United Kingdom
+
+*M*: +44 (0)774 353 7510
+*E*: martin.smith at durham.ac.uk
+
+smithlabdurham.github.io
+twitter.com/PalaeoSmith
+
+My working days are Monday?Thursday.
+
+The information in this e-mail and any attachments is co...{{dropped:13}}
+
+
+From j|n||68 @end|ng |rom gm@||@com  Tue Jan 18 23:48:03 2022
+From: j|n||68 @end|ng |rom gm@||@com (Jin Li)
+Date: Wed, 19 Jan 2022 09:48:03 +1100
+Subject: [R-pkgs] Package "steprf": Stepwise Predictive Variable Selection
+ for Random Forest
+Message-ID: <CAGu_3ZJqN4W1jYDx0VJZSGmqUn-JK5OaWCC_QM5-S-5Y5FW2GQ@mail.gmail.com>
+
+Dear R users,
+
+A new package "steprf" has been published on CRAN:
+https://cran.r-project.org/web/packages/steprf/index.html.
+
+It introduces several novel predictive variable selection methods for
+random forest (RF). The selections are based on various
+variable  importance methods and predictive accuracy in stepwise
+algorithms. Their performance can be seen in the references cited in the
+description of the package.
+
+Regards,
+
+-- 
+Jin
+------------------------------------------
+Jin Li, PhD
+Founder, Data2action, Australia
+https://www.researchgate.net/profile/Jin_Li32
+https://scholar.google.com/citations?user=Jeot53EAAAAJ&hl=en
+
+	[[alternative HTML version deleted]]
+
+
+From @kw@|mmo @end|ng |rom gm@||@com  Tue Jan 25 21:02:05 2022
+From: @kw@|mmo @end|ng |rom gm@||@com (Andrew Simmons)
+Date: Tue, 25 Jan 2022 15:02:05 -0500
+Subject: [R-pkgs] this.path-package: get executing script's path
+Message-ID: <CAPcHnpR7sUAxvQ6D-K4vmdkay8gC91Z4EcAhU3Efbz3isyP7pA@mail.gmail.com>
+
+Hello everyone,
+
+
+R package 'this.path' has received an update, the current version
+number is 0.5.0
+You can find this package at:
+
+https://CRAN.R-project.org/package=this.path
+
+Updates include:
+
+(1) added this.path::here (similar to here::here), for constructing
+the path to a file, starting with the executing script's directory
+
+(2) this.path::this.path is compatible with URLs in base::source, for
+example source("https://raw.githubusercontent.com/ArcadeAntics/this.path/main/tests/this.path_w_URLs.R")
+
+(3) added separate methods for extracting the shell argument 'FILE'
+for Windows and Unix-alikes (shell arguments are handled slightly
+differently between the two)
+
+(4) on Windows, in Rgui, added support for all languages listed by
+list.dirs(system.file(package = "translations"), full.names = FALSE,
+recursive = FALSE)
+
+If you're using version 0.4.4 or less, it is well worth upgrading.
+
+
+Regards,
+    Andrew Simmons
+
+
+From @te|@no@me@ch|@r| @end|ng |rom gm@||@com  Thu Jan 27 23:45:54 2022
+From: @te|@no@me@ch|@r| @end|ng |rom gm@||@com (Stefano Meschiari)
+Date: Thu, 27 Jan 2022 14:45:54 -0800
+Subject: [R-pkgs] latex2exp 0.9.0: Use LaTeX Expressions in Plots
+Message-ID: <CAMcXZtE84BN-Nbn_e6bm-w-UJUSjzVxC9Q7at4mkh72dzHUWDg@mail.gmail.com>
+
+Dear R users,
+
+latex2exp is an R package to use a subset of LaTeX to create formatted
+text and mathematical formulas and symbols. It can be used for axis
+labels, annotations, legends, titles, etc. throughout R?s plotting
+system and ggplot2.
+
+A call to TeX() such as `TeX(r"(\textbf{Euler's identity} is $e^{i\pi}
++ 1 = 0$.)")` will return an expression containing the formatted text
+and equation, suitable for plotting. latex2exp works by parsing the
+provided LaTeX string and converting it to R's plotmath expressions.
+
+A new major version of latex2exp (0.9.0), containing a rewritten
+parser, tens of new commands and symbols, and many bug fixes, is now
+available on CRAN:
+https://cran.r-project.org/package=latex2exp
+
+A website for the package, with examples, vignettes, and a searchable
+table of supported LaTeX commands, is available at:
+https://stefano-meschiari.github.io/latex2exp
+
+Finally, issues should be reported at:
+https://github.com/stefano-meschiari/latex2exp/
+
+Best regards,
+Stefano
+-- 
+Stefano Meschiari
+http://www.stefanom.io
+
+

@@ -1,0 +1,21 @@
+name: update_emails
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  update_emails:
+    runs-on: ubuntu-20.04
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v2
+      - name: Download emails
+        run: |
+          curl https://stat.ethz.ch/pipermail/r-packages/ | head -n 50 | sed -n 's/.*href="\([^"]*txt.gz\).*/\1/p' | xargs -I % sh -c 'wget https://stat.ethz.ch/pipermail/r-packages/%; gunzip -f %'
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add .
+          git commit -m "Update emails" && git push
