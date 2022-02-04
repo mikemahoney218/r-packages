@@ -287,3 +287,46 @@ Stefano Meschiari
 http://www.stefanom.io
 
 
+From d@nny @end|ng |rom |dem@@|ntern@t|on@|  Wed Feb  2 17:10:41 2022
+From: d@nny @end|ng |rom |dem@@|ntern@t|on@| (Danny Parsons)
+Date: Wed, 2 Feb 2022 16:10:41 +0000
+Subject: [R-pkgs] Package "naflex": Flexible Options for Handling Missing
+ Values
+Message-ID: <CABxkZL5b3Vfa=Q44iAgwQ0T6gK8BNU8W_3o_vzyb=azx=+t46g@mail.gmail.com>
+
+Dear all,
+
+I have recently released a new package "naflex" on CRAN:
+https://cran.r-project.org/web/packages/naflex/index.html.
+
+"naflex" provides helper functions that give additional flexibility for
+handling missing values in summary functions (beyond the current extremes
+of na.rm = TRUE/FALSE).
+
+For example, allow up to 20% of values to be missing:
+
+library(naflex)
+library(magrittr)
+x <- c(1, 3, NA, 4, 3, 2, NA, 5, 8, 7)
+mean(x %>% na_omit_if(prop = 0.2))
+# 4.125
+mean(x %>% na_omit_if(prop = 0.1))
+# NA
+
+Please see the package details or vignette for the full set of checks
+available.
+
+I hope this may be of use to some as a convenient way to work with various
+missing value rules.
+
+Feedback, suggestions and bug reports are welcome at
+https://github.com/dannyparsons/naflex or by email
+(danny at idems.international)
+
+Best regards,
+
+Danny Parsons
+
+	[[alternative HTML version deleted]]
+
+
