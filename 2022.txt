@@ -330,3 +330,69 @@ Danny Parsons
 	[[alternative HTML version deleted]]
 
 
+From dscoiby17 m@iii@g oii gm@ii@com  Fri Feb  4 21:31:59 2022
+From: dscoiby17 m@iii@g oii gm@ii@com (dscoiby17 m@iii@g oii gm@ii@com)
+Date: Fri, 4 Feb 2022 15:31:59 -0500
+Subject: [R-pkgs] spacejamr v0.2
+Message-ID: <031e01d81a06$4fa88600$eef99200$@gmail.com>
+
+Dear R users,
+
+ 
+
+I am pleased to announce that v0.2 of the spacejamr package is now available
+on CRAN.  This package enables social network analysis when social network
+data is unavailable. spacejamr simulates points from a spatial point process
+or sequence in a user-specified spatial window, converts distances between
+points into tie formation probabilities, and outputs an igraph object that
+can be analyzed with normal network analysis methods. In addition, the
+package includes plotting methods for spatial boundaries, point processes,
+and social networks.
+
+ 
+
+Some changes to this version are:
+
+ 
+
+            * Users can decide whether to use the coordinate reference
+system in the supplied shapefile or let the as.spacejamr() method find the
+best projected CRS.
+
+    
+
+             * spacejamr no longer depends on the methods package.
+
+    
+
+            * In line with new versions of the spatstat metapackage,
+spacejamr now calls functions from spatstat.random to simulate spatial point
+processes.
+
+ 
+
+Please check it out here:
+
+https://cran.r-project.org/package=spacejamr
+
+ 
+
+For more details on the methodology used in the package see:
+
+Carter T. Butts, (2002, ISBN:978-0-493-72676-2), "Spatial models of
+large-scale interpersonal networks."
+
+ 
+
+Best regards,
+
+ 
+
+Darren Colby
+
+ 
+
+
+	[[alternative HTML version deleted]]
+
+
