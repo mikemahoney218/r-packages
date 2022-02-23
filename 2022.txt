@@ -396,3 +396,73 @@ Darren Colby
 	[[alternative HTML version deleted]]
 
 
+From @kw@|mmo @end|ng |rom gm@||@com  Thu Feb 17 22:25:39 2022
+From: @kw@|mmo @end|ng |rom gm@||@com (Andrew Simmons)
+Date: Thu, 17 Feb 2022 16:25:39 -0500
+Subject: [R-pkgs] this.path-package: get executing script's path
+Message-ID: <CAPcHnpQrOWjep3Js5UXJyhKmCCk=aw6kp_UygUKhyxGTc64MEA@mail.gmail.com>
+
+Hello everyone,
+
+
+R package 'this.path' has received an update, the current version
+number is 0.5.0
+You can find this package at:
+
+https://CRAN.R-project.org/package=this.path
+
+Updates include:
+
+(1) added this.path::here (similar to here::here), for constructing
+the path to a file, starting with the executing script's directory
+
+(2) this.path::this.path is compatible with URLs in base::source, for
+example source("https://raw.githubusercontent.com/ArcadeAntics/this.path/main/tests/this.path_w_URLs.R")
+
+(3) added separate methods for extracting the shell argument 'FILE'
+for Windows and Unix-alikes (shell arguments are handled slightly
+differently between the two)
+
+(4) on Windows, in Rgui, added support for all languages listed by
+list.dirs(system.file(package = "translations"), full.names = FALSE,
+recursive = FALSE)
+
+If you're using version 0.4.4 or less, it is well worth upgrading.
+
+
+Regards,
+    Andrew Simmons
+
+
+From k@ttw|nke|-m|r@ @end|ng |rom un|-|@nd@u@de  Tue Feb 15 10:11:39 2022
+From: k@ttw|nke|-m|r@ @end|ng |rom un|-|@nd@u@de (Mira Kattwinkel)
+Date: Tue, 15 Feb 2022 10:11:39 +0100
+Subject: [R-pkgs] update openSTARS
+Message-ID: <a32be8de-3ca0-bc62-d08b-b15b6865d6ab@uni-landau.de>
+
+Dear R users
+
+There is an update of openSTARS available on CRAN (now version 1.2.3), 
+fixing some problems in correct_complex_confluences.
+
+openSTARS provides GIS functionalities to delineate streams from DEMs, 
+derive catchments of sampling sites along streams and intersect with 
+potential covariates of stream monitoring data. It also prepares the 
+data to be further processed by geostatistical regression models using ssn.
+
+All the best,
+
+Mira
+
+-- 
+Dr. Mira Kattwinkel
+Quantitative Landscape Ecology
+iES Landau, Institute for Environmental Sciences
+University of Koblenz-Landau
+Fortstra?e 7
+76829 Landau
+Germany
+Phone: + 49 6341 280-31553
+Office: Building I, Room 2.02
+
+
