@@ -466,3 +466,42 @@ Phone: + 49 6341 280-31553
 Office: Building I, Room 2.02
 
 
+From |eg|d| @end|ng |rom un|t@@|t  Tue Feb 22 15:41:48 2022
+From: |eg|d| @end|ng |rom un|t@@|t (EGIDI LEONARDO)
+Date: Tue, 22 Feb 2022 14:41:48 +0000
+Subject: [R-pkgs] footBayes 0.1.0 for football modelling is on CRAN!
+Message-ID: <AS8P250MB0008A7F0B87BEE6E89344EE9B63B9@AS8P250MB0008.EURP250.PROD.OUTLOOK.COM>
+
+Hi all,
+
+just to inform you that the 'footBayes' package (version 0.1.0) is now on CRAN:
+
+ https://CRAN.R-project.org/package=footBayes<https://cran.r-project.org/package=footBayes>
+
+The package wants to be the most comprehensive tool for the football (soccer) modelling ecosystem.
+As such, it allows the estimation, the visualization and the prediction for the most
+well-known football (soccer) models, according to the references:
+
+Dixon and Coles (1997) <doi:10.1111/1467-9876.00065>,
+Karlis and Ntzoufras (2003) <doi:10.1111/1467-9884.00366> and
+Egidi, Pauli and Torelli (2018) <doi:10.1177/1471082X18798414>.
+
+In brief, the goal of ```footBayes``` is to propose a complete workflow to:
+
+- fit the most well-known football models: double Poisson, bivariate Poisson, Skellam, student-t, according to both maximum likelihood and Bayesian methods (+ Hamiltonian Monte Carlo engine);
+
+- visualize the teams' abilities, the model checks, the rank-league reconstruction;
+
+- predict out-of-sample matches.
+
+Try the package now and enjoy!
+Best.
+
+Leonardo Egidi
+University of Trieste
+
+
+
+	[[alternative HTML version deleted]]
+
+
