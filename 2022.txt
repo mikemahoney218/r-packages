@@ -505,3 +505,19 @@ University of Trieste
 	[[alternative HTML version deleted]]
 
 
+From er|cwe|ne15 @end|ng |rom gm@||@com  Thu Feb 24 05:18:50 2022
+From: er|cwe|ne15 @end|ng |rom gm@||@com (Eric Weine)
+Date: Wed, 23 Feb 2022 23:18:50 -0500
+Subject: [R-pkgs] qqconf update to 1.2.0
+Message-ID: <CAO=DOOa+UjJgvd67=vHPtvsSusgsqfh_PrvQ1X3jge1SpyMVoQ@mail.gmail.com>
+
+Hello,
+
+qqconf has received an update to version 1.2.0. All interfaces are exactly
+the same, but the code to derive testing bands for qq plots has gotten
+substantially faster due to a new FFT method thanks to Amit Moscovich and
+Boaz Nadler (see documentation for more details).
+
+	[[alternative HTML version deleted]]
+
+
