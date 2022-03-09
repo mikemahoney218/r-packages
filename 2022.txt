@@ -521,3 +521,55 @@ Boaz Nadler (see documentation for more details).
 	[[alternative HTML version deleted]]
 
 
+From |8|5h9 @end|ng |rom gm@||@com  Mon Mar  7 10:14:59 2022
+From: |8|5h9 @end|ng |rom gm@||@com (=?utf-8?Q?Fernando_A_L=C3=B3pez_Hern=C3=A1ndez?=)
+Date: Mon, 7 Mar 2022 10:14:59 +0100
+Subject: [R-pkgs] spqdep: An R package to test for spatial dependence in
+ categorical spatial data
+Message-ID: <11C9A418-E478-41DD-ADD9-ADEB9535759F@gmail.com>
+
+Dear R users,
+
+I am happy to announce that a new package ?spqdep? is now available on CRAN.
+https://cran.r-project.org/web/packages/spqdep/index.html <https://cran.r-project.org/web/packages/spqdep/index.html>
+
+The objective of this R-package is to test for spatial dependence in categorical spatial data. 
+https://f8l5h9.github.io/spqdep/articles/spq_userguide.html <https://f8l5h9.github.io/spqdep/articles/spq_userguide.html>
+
+Several tests have been implemented in spqdep, namely, the classical joint count statistics, the Q-test based on symbolic dynamics, the Scan-test based on scan methodology and a new spatial test based on spatial-runs. All tests can be applied to categorical spatial cross-section data with two or more categories and asymptotic and bootstrap permutation distribution are implemented. The R package is completely documented, including several examples and an user-guide is available as a vignette.
+
+Best regards,
+Fernando L?pez
+
+
+	[[alternative HTML version deleted]]
+
+
+From dj@ndr|j@ @end|ng |rom gm@||@com  Mon Mar  7 15:01:46 2022
+From: dj@ndr|j@ @end|ng |rom gm@||@com (Andrija Djurovic)
+Date: Mon, 7 Mar 2022 15:01:46 +0100
+Subject: [R-pkgs] PDtoolkit: new version 0.2.0
+Message-ID: <CABcwgRSNJAUbDWvpdWctGjSqTvpzdeX1YAb2DhVR0YwAq+go5g@mail.gmail.com>
+
+Dear R users,
+
+the new version (0.2.0) of PDtoolkit package is now on CRAN.
+The is the package second update.
+
+Since the first release, besides minor improvements of the existing
+features, package is extended with a new functions:
+1. psi - calculates population stability index
+2. create.partitions - creates nested dummy variables
+3. evrs - uses for modeling the economic value of PD rating model
+4. interaction.transforme -  extracts risk factors interaction from
+decision tree
+
+For examples, please, install the new version of the package and check the
+help page of the functions.
+
+Best regards,
+Andrija Djurovic
+
+	[[alternative HTML version deleted]]
+
+
