@@ -573,3 +573,30 @@ Andrija Djurovic
 	[[alternative HTML version deleted]]
 
 
+From xwu @end|ng |rom em@||@t@mu@edu  Tue Mar  8 03:51:40 2022
+From: xwu @end|ng |rom em@||@t@mu@edu (ximing wu)
+Date: Mon, 7 Mar 2022 20:51:40 -0600
+Subject: [R-pkgs] rlcv: robust likelihood cross validation bandwidth
+ selection for kernel density estimation
+Message-ID: <be3c1a41-e3ee-52ef-a0fc-b40d4d3c669f@email.tamu.edu>
+
+Dear R users,
+
+I am happy to announce that a new package 'rlcv' is now available on? CRAN.
+
+https://cran.r-project.org/web/packages/rlcv/index.html
+
+Robust likelihood cross validation bandwidth for uni- and multi-variate 
+kernel densities. It is robust against fat-tailed distributions and/or 
+outliers. Based on "Robust Likelihood Cross-Validation for Kernel 
+Density Estimation," Wu (2019) <doi:10.1080/07350015.2018.1424633 
+<https://doi.org/10.1080%2F07350015.2018.1424633>>.
+
+Best regards,
+
+Ximing Wu
+
+
+	[[alternative HTML version deleted]]
+
+
