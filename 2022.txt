@@ -600,3 +600,34 @@ Ximing Wu
 	[[alternative HTML version deleted]]
 
 
+From du@@@@dr|@n @end|ng |rom gm@||@com  Thu Mar 17 12:19:03 2022
+From: du@@@@dr|@n @end|ng |rom gm@||@com (=?UTF-8?B?QWRyaWFuIER1yJlh?=)
+Date: Thu, 17 Mar 2022 13:19:03 +0200
+Subject: [R-pkgs] new version of package declared
+Message-ID: <CAJ=0CtDcomCvLRiXFTDLkRXWH+m1Tv7V53Q6VZhTM49udGwAfg@mail.gmail.com>
+
+Dear community,
+
+Version 0.12 of the package declared has just made it on CRAN.
+
+Apart from the usual functions to declare labels for regular and missing
+values, this version has a suite of new functions to calculate various
+weighted frequencies and summaries.
+
+The weighted versions are heavily inspired from the base R packages and
+other established contributed ones, but adapted to objects of class
+"declared".
+
+In hoping this might be helpful,
+
+Adrian Dusa
+University of Bucharest
+Romanian Social Data Archive
+Soseaua Panduri nr. 90-92
+050663 Bucharest sector 5
+Romania
+https://adriandusa.eu
+
+	[[alternative HTML version deleted]]
+
+
