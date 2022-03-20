@@ -631,3 +631,24 @@ https://adriandusa.eu
 	[[alternative HTML version deleted]]
 
 
+From ||ndbrook @end|ng |rom gm@||@com  Thu Mar 17 18:26:53 2022
+From: ||ndbrook @end|ng |rom gm@||@com (Peter Li)
+Date: Thu, 17 Mar 2022 10:26:53 -0700
+Subject: [R-pkgs] PackageRank: Computation and Visualization of Package
+ Download Counts and Percentiles
+Message-ID: <31182898-BF95-4CFD-AEDB-3F5908658DAA@gmail.com>
+
+Hi all,
+
+packageRank v0.6.0 is now available. 
+
+??packageRank? is an R package that helps put package download counts into context. It does so via two core functions, cranDownloads() and packageRank(), a set of filters that reduces package download count inflation, and other assorted functions that help you assess interest in your package. 
+
+https://cran.r-project.org/package=packageRank
+
+https://github.com/lindbrook/packageRank
+
+Cheers. 
+	[[alternative HTML version deleted]]
+
+
