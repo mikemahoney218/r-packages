@@ -652,3 +652,24 @@ Cheers.
 	[[alternative HTML version deleted]]
 
 
+From Benj@m|n@W|@em@n @end|ng |rom KornFerry@com  Mon Mar 21 20:35:06 2022
+From: Benj@m|n@W|@em@n @end|ng |rom KornFerry@com (Ben Wiseman)
+Date: Mon, 21 Mar 2022 19:35:06 +0000
+Subject: [R-pkgs] sentiment.ai CRAN package (vignette is on github.io -
+ package is hosted on CRAN)
+Message-ID: <BY3PR05MB8114B0A33F847BF7B74494D49B169@BY3PR05MB8114.namprd05.prod.outlook.com>
+
+An easy way to do sentiment analysis (and more) based on deep learning: sentiment.ai, now on CRAN! https://cran.r-project.org/web/packages/sentiment.ai/index.html
+
+sentiment.ai  does sentiment analysis via deep learning (with tensorflow) and gradient boosting models with a lot of the underlying hassle taken care of to make the process as simple as possible. In addition to out-performing traditional, lexicon-based sentiment analysis, and even Azure Cognitive Services (see https://benwiseman.github.io/sentiment.ai/#Benchmarks), it also allows the user to create embedding vectors for text (via Google's U.S.E.) which can be used in other analyses (e.g. text similarity). What's more is that the community can contribute better sentiment scoring models to make sentiment analysis in R get better and better over time. Our aim is to make sentiment analysis more consistently good for all people with as little hassle as possible. GPU acceleration via NVIDIA CUDA is supported on Windows and Linux.
+
+To install the package, run:
+install.packages("sentiment.ai")
+# followed by
+sentiment.ai::install_sentiment.ai() # to set up python/tensorflow dependencies
+
+
+
+	[[alternative HTML version deleted]]
+
+
