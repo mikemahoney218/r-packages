@@ -673,3 +673,63 @@ sentiment.ai::install_sentiment.ai() # to set up python/tensorflow dependencies
 	[[alternative HTML version deleted]]
 
 
+From j@w|eczo @end|ng |rom co|by@edu  Tue Mar 22 21:07:51 2022
+From: j@w|eczo @end|ng |rom co|by@edu (Jerzy Wieczorek)
+Date: Tue, 22 Mar 2022 16:07:51 -0400
+Subject: [R-pkgs] surveyCV: cross validation based on survey design
+Message-ID: <CAKRVze+TD-bbDVdE4usEEj5CLi_ZxMcNgPwdoJuo7QJswVOsmQ@mail.gmail.com>
+
+Dear R users,
+
+I have released a new package on CRAN:
+
+`surveyCV`: Cross Validation Based on Survey Design
+https://cran.r-project.org/package=surveyCV
+
+Following the design-based framework used in survey sampling, we
+provide functions to generate K-fold cross validation (CV) folds and
+CV test error estimates that are able to account for many common
+sampling designs (SRS, clustering, stratification, and/or unequal
+sampling weights). The sampling design can be specified directly or
+provided as a `svydesign` object from the `survey` package.
+
+For linear or logistic regression, the function `cv.svy()` carries out
+the entire CV process: generate folds, train fitted models, and
+calculate estimates of test error and their SEs, all while respecting
+the sampling design.
+For other model types, the function `folds.svy()` partitions your
+dataset into K folds that respect any stratification and clustering in
+the sampling design, so that these folds can be used in your own
+custom CV loop.
+
+Please see our package's README and `intro` vignette for examples:
+https://github.com/ColbyStatSvyRsch/surveyCV/#readme
+https://cran.r-project.org/web/packages/surveyCV/vignettes/intro.html
+
+For further details on the methodology, please see:
+Wieczorek, Guerin, and McMahon (2022), "K-Fold Cross-Validation for
+Complex Sample Surveys," *Stat* <doi:10.1002/sta4.454>
+https://doi.org/10.1002/sta4.454
+
+Feedback is welcome by email or at:
+https://github.com/ColbyStatSvyRsch/surveyCV/issues
+
+Best wishes,
+Jerzy Wieczorek
+
+PS -- The package was originally released in January as v0.1.1, but it
+was not announced here until now that the more feature-complete v0.2.0
+is available.
+
+--
+Jerzy Wieczorek
+Assistant Professor
+Department of Statistics
+Colby College
+5841 Mayflower Hill
+Waterville, ME 04901
+207-859-5841
+jawieczo at colby.edu
+https://civilstat.com/
+
+
