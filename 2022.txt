@@ -733,3 +733,31 @@ jawieczo at colby.edu
 https://civilstat.com/
 
 
+From m@pjg @end|ng |rom br|@to|@@c@uk  Sat Apr  2 16:58:17 2022
+From: m@pjg @end|ng |rom br|@to|@@c@uk (Peter Green)
+Date: Sat, 2 Apr 2022 15:58:17 +0100
+Subject: [R-pkgs] Nmix package - Bayesian inference about univariate
+ Gaussian mixtures with an unknown number of components
+Message-ID: <d52bf841-0a15-ba10-6585-155a33be35e9@bristol.ac.uk>
+
+This package is now on CRAN in version 2.0.2, and anyone interested in 
+inference on mixture models, or more generally in Bayesian inference for 
+"trans-dimensional" problems, is encouraged to try it out. The 
+methodology is that presented by Richardson and Green in our 1997 
+article in the Journal of the Royal Statistical Society, using 
+Reversible jump Markov chain Monte Carlo. The package is based on the 
+Fortran code used in the research for that paper, which is available now 
+to the R user for the first time. A rich variety of outputs from the 
+MCMC sample path is available, optionally, and many features of the 
+posterior distribution are presented graphically. Apart from its direct 
+use in analysing data, the package might be useful in supporting 
+learning about Bayesian computation.
+
+Feedback is most welcome, and I may be open to extending the 
+functionality of the package in response to concrete suggestions.
+
+regards,
+
+Peter Green
+
+
