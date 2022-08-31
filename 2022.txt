@@ -920,3 +920,32 @@ Shael
 	[[alternative HTML version deleted]]
 
 
+From Den|@@Cou@|ne@u @end|ng |rom uott@w@@c@  Wed Aug 24 16:32:25 2022
+From: Den|@@Cou@|ne@u @end|ng |rom uott@w@@c@ (Denis Cousineau)
+Date: Wed, 24 Aug 2022 14:32:25 +0000
+Subject: [R-pkgs] CohensdpLibrary: Compute Cohen's d and its confidence
+ interval in any experimental design
+Message-ID: <0175872f-a228-5b53-f9df-0b4bd6e69d18@uottawa.ca>
+
+Dear all,
+
+If you are using Cohen's d, this package is for you. The package "CohensdpLibrary" lets you compute Cohen's d from basic statistics and also get confidence intervals. It expands on MBESS as it is available for data obtained in within-subject designs as well as between-subject designs.
+
+It is based on a simple command, e. g.,
+
+Cohensdp( statistics = list(m1=76, m2=72, n=20, s1=14.8, s2=18.8, r=0.2),
+          design = "within"
+)
+
+Learn more at
+
+https://dcousin3.github.io/CohensdpLibrary/
+
+Sincerely,
+Denis Cousineau.
+
+
+
+	[[alternative HTML version deleted]]
+
+
