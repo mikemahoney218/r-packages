@@ -949,3 +949,24 @@ Denis Cousineau.
 	[[alternative HTML version deleted]]
 
 
+From y@||n@zhu @end|ng |rom merck@com  Fri Sep  2 16:26:11 2022
+From: y@||n@zhu @end|ng |rom merck@com (Zhu, Yalin)
+Date: Fri, 2 Sep 2022 14:26:11 +0000
+Subject: [R-pkgs] gMCPLite: Lightweight Graph Based Multiple Comparison
+ Procedures
+Message-ID: <SN4P106MB014480742C9B8DCA49C094B1FD7A9@SN4P106MB0144.NAMP106.PROD.OUTLOOK.COM>
+
+Dear all,
+
+I am happy to announce that {gMCPLite} is now on CRAN. It is a lightweight fork of {gMCP} for graph-based multiple comparison procedures, with {ggplot2} multiplicity graph visualizations, graphical testing for group sequential design workflows, and essential unit testing.
+
+I hope you find it helpful. Please feel free to reach out with feedbacks or questions.
+
+CRAN: https://cran.r-project.org/package=gMCPLite 
+Documentation: https://merck.github.io/gMCPLite/ 
+
+-Yalin Zhu
+
+This e-mail message, together with any attachments, cont...{{dropped:10}}
+
+
