@@ -970,3 +970,19 @@ Documentation: https://merck.github.io/gMCPLite/
 This e-mail message, together with any attachments, cont...{{dropped:10}}
 
 
+From me @end|ng |rom n@nx@me  Fri Sep  2 19:27:34 2022
+From: me @end|ng |rom n@nx@me (Nan Xiao)
+Date: Fri, 02 Sep 2022 13:27:34 -0400
+Subject: [R-pkgs] pkglite 0.2.1 is released
+Message-ID: <472c1447-c521-4b9b-8274-321a602b56c9@www.fastmail.com>
+
+Dear all,
+
+A new version of pkglite (0.2.1) is now on CRAN (https://cran.r-project.org/package=pkglite). pkglite offers a tool, grammar, and standard to represent and exchange R package source code as text files.
+
+This version brings expanded coverage of file types (before: 88.85%, after: 96.65%, tested among all files in all CRAN packages), fewer dependencies, and more low-level enhancements. Please see the changelog (https://merck.github.io/pkglite/news/) for details.
+
+Thanks,
+-Nan
+
+
