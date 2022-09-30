@@ -986,3 +986,43 @@ Thanks,
 -Nan
 
 
+From du@@@@dr|@n @end|ng |rom gm@||@com  Thu Sep 29 19:17:36 2022
+From: du@@@@dr|@n @end|ng |rom gm@||@com (=?UTF-8?B?QWRyaWFuIER1yJlh?=)
+Date: Thu, 29 Sep 2022 20:17:36 +0300
+Subject: [R-pkgs] new version of package declared
+Message-ID: <CAJ=0CtBM_tyfu1DuMjf3Oq8TJY-eW+AOopE=qywJ=NpNWWCzTw@mail.gmail.com>
+
+Dear R-list,
+
+It gives me great pleasure to announce the release of version 0.18 of
+package declared, that makes a difference between empty missing values (the
+current NAs in R) and declared missing values (NAs with a reason).
+
+Besides an automatic detection of such values by most base R operations
+(including ==, != etc.), package declared also offers weighted versions of
+most common summaries (ex. mean, median, sd, quantile) that also apply on
+the declared missing values, something not covered by other similar
+functions.
+
+Version 0.18 is fully documented using Roxygen2 and extensively (even
+obsessively) tested to achieve no less than 100% code coverage, using more
+than 750 tests including the "golden" ones capturing output using
+snapshots. It also features three Vignettes showcasing the package's
+features.
+
+Many thanks to Daniel Antal for the enthusiastic support and contribution
+to the initial Roxygen2 and pkgdown documentation, bringing this package
+closer to the rOpenSci standards. Most functions are now generic, allowing
+extensions to any type of object, for both creation and coercion to class
+"declared".
+
+Platform specific binaries are soon to be built on CRAN, but they are also
+available and can be installed from R-universe package page:
+https://dusadrian.r-universe.dev/ui#package:declared
+
+As always, bug reporting and feature proposals are more than welcome.
+Adrian
+
+	[[alternative HTML version deleted]]
+
+
