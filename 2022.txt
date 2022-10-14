@@ -1026,3 +1026,19 @@ Adrian
 	[[alternative HTML version deleted]]
 
 
+From me @end|ng |rom n@nx@me  Wed Oct 12 20:05:35 2022
+From: me @end|ng |rom n@nx@me (Nan Xiao)
+Date: Wed, 12 Oct 2022 14:05:35 -0400
+Subject: [R-pkgs] gsDesign 3.4.0 is released
+Message-ID: <b16750c6-f7ad-4399-9077-574ba3d06236@app.fastmail.com>
+
+Dear all,
+
+A new version of gsDesign (3.4.0) is now on CRAN (https://cran.r-project.org/package=gsDesign). gsDesign supports group sequential clinical trial design, largely as presented in Jennison and Turnbull (2000).
+
+This version removes restrictions on conditional power calculations for interim test statistic and brings improvements on dependencies and lifecycle management. Please see the changelog (https://keaven.github.io/gsDesign/news/) for details.
+
+Thanks,
+-Nan
+
+
