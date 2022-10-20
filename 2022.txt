@@ -1042,3 +1042,41 @@ Thanks,
 -Nan
 
 
+From @cpubr @end|ng |rom gm@||@com  Mon Oct 17 16:28:51 2022
+From: @cpubr @end|ng |rom gm@||@com (Enrique Blanco Carmona)
+Date: Mon, 17 Oct 2022 16:28:51 +0200
+Subject: [R-pkgs] SCpubr: Generate high quality,
+ publication-ready plots of single-cell transcriptomics data.
+Message-ID: <CAJHOHbtK4+PnmMt3Mf=iX0pvFmpVoUjS50=NXQ0to_jiGLT8mw@mail.gmail.com>
+
+Dear R community,
+
+It is my pleasure to announce that my new R package (*SCpubr
+<https://github.com/enblacar/SCpubr>*) to generate *high-quality,
+publication-ready plots* for *single-cell transcriptomics* data has been
+released *on CRAN
+<https://cran.r-project.org/web/packages/SCpubr/index.html>*. It uses *Seurat
+objects* <https://cran.r-project.org/web/packages/Seurat/index.html> as
+backbone to generate any type of data visualisation you might need for your
+research!
+
+If this is of interest to you, please give it a try! You can have an
+in-depth look of *SCpubr's *functionalities in the *documentation book*
+<https://enblacar.github.io/SCpubr-book/>.
+
+Any kind of feedback is appreciated!
+
+Best,
+Enrique
+-- 
+*Enrique Blanco Carmona*
+Developer and maintainer
+
+*SCpubr*
+*[CRAN package <https://cran.r-project.org/web/packages/SCpubr/index.html>]
+| [GitHub <https://github.com/enblacar/SCpubr>] | [Documentation Book
+<https://enblacar.github.io/SCpubr-book/>]*
+
+	[[alternative HTML version deleted]]
+
+
