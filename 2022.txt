@@ -1124,3 +1124,49 @@ Shael
 	[[alternative HTML version deleted]]
 
 
+From d@t@|owe @end|ng |rom po@teo@de  Fri Nov 11 18:27:55 2022
+From: d@t@|owe @end|ng |rom po@teo@de (Lowe Wilsson)
+Date: Fri, 11 Nov 2022 17:27:55 +0000
+Subject: [R-pkgs] synr: Analyze stimulus-color consistency test data
+Message-ID: <eecad148a1987e4f8b053b564c614158@posteo.de>
+
+ Dear fellow useRs,
+
+synr is an R package for working with data resulting from so-called
+consistency tests, aimed at studying associations between stimuli and
+colors. A simple example of such an association is if someone
+experiences the color blue when hearing a particular word, or seeing the
+letter 7 as red even if it is printed in black. The package, like
+consistency tests, is especially relevant for synesthesia research but
+may be of use to others researching color experiences. Yet others might
+be interested in how the package utilizes the DBSCAN clustering
+algorithm to evaluate variation in 3D space point coordinates.
+
+You can learn more in an article just published in Behavior Research
+Methods, "synr: An R package for handling synesthesia consistency test
+data": https://rdcu.be/cZrrh [1]
+
+The package itself also includes comprehensive vignettes explaining its
+use. CRAN link: https://cran.r-project.org/web/packages/synr/index.html
+[2]
+
+Issue reports and contributions are very welcome on GitHub:
+https://github.com/datalowe/synr [3] I've also created a GitHub page
+with Packrat which includes nicely-formatted versions of the vignettes:
+https://datalowe.github.io/synr [4]
+
+I hope you'll find the package useful!
+
+Sincerely,
+Lowe Wilsson 
+
+Links:
+------
+[1] https://rdcu.be/cZrrh
+[2] https://cran.r-project.org/web/packages/synr/index.html
+[3] https://github.com/datalowe/synr
+[4] https://datalowe.github.io/synr
+
+	[[alternative HTML version deleted]]
+
+
