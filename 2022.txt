@@ -1170,3 +1170,45 @@ Links:
 	[[alternative HTML version deleted]]
 
 
+From d@v|dhughjone@ @end|ng |rom gm@||@com  Wed Dec  7 17:57:12 2022
+From: d@v|dhughjone@ @end|ng |rom gm@||@com (David Hugh-Jones)
+Date: Wed, 7 Dec 2022 16:57:12 +0000
+Subject: [R-pkgs] onetime 0.1.0: Run Code Only Once
+Message-ID: <CAARY7kg9QnxFkNh_MMO1=xa4wMOet=McSFN1y1JTMK1d5F9MPQ@mail.gmail.com>
+
+Dear all,
+
+Onetime 0.1.0, a utility package of interest to package developers, is now
+on CRAN:
+
+https://cran.r-project.org/package=onetime
+
+Onetime uses lockfiles to perform an action only once (ever, or with an
+expiry date) on a given computer. For example, it can send a message or
+warning:
+
+for (i in 1:10) {
+  onetime_message("This will be shown only once", id = "my-message")
+}
+
+It also lets you send a message and confirm the user doesn't need to see it
+again:
+
+onetime_message_confirm("User can opt not to show this message again",
+                                             id = "my-confirm-message")
+
+Onetime checks that you have permission to store files on the user's
+computer, and allows package authors to ask for this permission using
+check_ok_to_store().
+
+Package authors can use onetime to print one-off informative messages for
+new users, or to do other one-off actions.
+
+Documentation is available at https://hughjonesd.github.io/onetime/.
+
+Cheers,
+David
+
+	[[alternative HTML version deleted]]
+
+
