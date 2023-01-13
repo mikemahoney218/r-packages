@@ -1,0 +1,37 @@
+From m@pjg @end|ng |rom br|@to|@@c@uk  Sun Jan  8 15:13:52 2023
+From: m@pjg @end|ng |rom br|@to|@@c@uk (Peter Green)
+Date: Sun, 8 Jan 2023 14:13:52 +0000
+Subject: [R-pkgs] gRaven package - Bayes Nets: 'RHugin' Emulation with
+ 'gRain'
+Message-ID: <3877ec85-3309-fec1-5cd5-579f291d401f@bristol.ac.uk>
+
+Dear all,
+
+I am pleased to announce that CRAN now hosts my package gRaven.
+
+This provides wrappers for functions in the 'gRain' package to emulate 
+some 'RHugin' functionality, allowing the building of Bayesian networks 
+consisting of discrete chance nodes incrementally - through adding 
+nodes, edges and conditional probability tables, the setting of 
+evidence, whether 'hard' (boolean) or 'soft' (likelihoods), and querying 
+marginal joint probabilities and normalizing constants.
+
+Computations will typically not be so fast as they are with 'RHugin', 
+but this package should assist users without access to the commercial 
+package 'Hugin' to use existing code written to use 'RHugin'.
+
+I am open to extending the functionality of the package in future, in 
+response to user demand.
+
+regards,
+
+Peter Green
+
+-- 
+Peter Green, p.j.green at bristol.ac.uk
+-- 
+Emeritus Professor of Statistics & Professorial Research Fellow
+University of Bristol, Bristol BS8 1UG, UK
+T: +44 117 455 2611; W: https://petergreenweb.wordpress.com/
+
+
