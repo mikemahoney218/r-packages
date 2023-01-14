@@ -35,3 +35,49 @@ University of Bristol, Bristol BS8 1UG, UK
 T: +44 117 455 2611; W: https://petergreenweb.wordpress.com/
 
 
+From @t@|v|vek @end|ng |rom y@hoo@co@|n  Wed Jan 11 19:41:56 2023
+From: @t@|v|vek @end|ng |rom y@hoo@co@|n (Vivek Atal)
+Date: Wed, 11 Jan 2023 18:41:56 +0000 (UTC)
+Subject: [R-pkgs] New CRAN package announcement: azlogr
+References: <1506840172.8984.1673462516211.ref@mail.yahoo.com>
+Message-ID: <1506840172.8984.1673462516211@mail.yahoo.com>
+
+I am excited to announce that `azlogr` is published on CRAN!
+This package?enables logging in 'R' by extending the functionality of 'logger' package. There is an option to add additional custom meta-data while logging, which can sometimes be helpful.?Logging messages are displayed on console and optionally they are sent to 'Azure Log Analytics' workspace in real-time.
+The package comes with a vignette, How to use azlogr, that (hopefully) provides a good introduction to using the functions for easy logging. Example usage below:
+# Azure Log Analytics workspace id and shared key are fetched
+# from environment variables.
+Sys.setenv(AZ_LOG_ID = "<enter-your-Azure-Log-Analytics-workspace-id>")
+Sys.setenv(AZ_LOG_KEY = "<enter-your-Azure-Log-Analytics-shared-key>")
+
+library(azlogr)
+
+# Optionally, add additional meta-data, `country` and `id`, to be collected
+# while logging, on top of the default fields - 'level', 'time', 'msg'.
+set_log_config(
+  log_fields = c("level", "time", "msg"),
+  additional_fields = list(country = "in", id = 123)
+)
+
+# Use logger_* functions with appropriate logging level to log.
+# If POST is successful, then it will be available in custom log table on
+# Azure Log Analytics, by default table name will be `log_from_r`_CL (_CL is
+# added by Azure for any custom log table)
+logger_info("log info sent to Azure")
+#> {"level":"INFO","time":"2023-01-11 13:15:04","msg":"log info sent to Azure","country":"in","id":123}
+
+# If the POST request is unsuccessful due to Azure credential issue, then log
+# message is displayed on console and a warning is generated with error details.
+logger_info("log info sent to Azure")
+#> {"level":"INFO","time":"2023-01-11 13:15:04","msg":"log info sent to Azure","country":"in","id":123}
+#> Warning message:
+#> In logger_level(logger::INFO, ...) :
+#>   Some error happened while sending POST request to 'Azure Log Analytics' workspace.
+#> Error message: Error in curl::curl_fetch_memory(url, handle = handle) :
+#>   Could not resolve host: abcd.ods.opinsights.azure.com
+Many thanks to the author of?'logger' package,?and to the CRAN team for a speedy onboarding!
+
+RegardsVivek Atal
+	[[alternative HTML version deleted]]
+
+
