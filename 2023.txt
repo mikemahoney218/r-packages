@@ -81,3 +81,42 @@ RegardsVivek Atal
 	[[alternative HTML version deleted]]
 
 
+From dj@ndr|j@ @end|ng |rom gm@||@com  Tue Jan 31 08:05:58 2023
+From: dj@ndr|j@ @end|ng |rom gm@||@com (Andrija Djurovic)
+Date: Tue, 31 Jan 2023 08:05:58 +0100
+Subject: [R-pkgs] New package - LGDtoolkit
+Message-ID: <CABcwgRQ+UhisX0tPPgJt1WWpwvF2qT9rsP8B5FfvDzBP1LCwTw@mail.gmail.com>
+
+Dear all,
+
+my new R package LGDtoolkit is now on CRAN.
+
+The goal of this package is to cover the most common steps in Loss Given
+Default (LGD) rating model development. The main procedures available are
+those that refer to bivariate and multivariate analysis.
+In particular two statistical methods for multivariate analysis are
+currently implemented ? OLS regression and fractional logistic regression.
+Both methods are also available within different blockwise model designs,
+and both have customized stepwise algorithms. To cover other important
+steps for LGD model development, it is recommended to use 'LGDtoolkit'
+package along with 'PDtoolkit', and 'monobin' (or 'monobinShiny') packages.
+
+With the next releases package will be extended with a new features. In
+particular, validation procedures will be added, and significant part of
+the package will be dedicated to the usage of survival analysis for LGD
+modeling (extrapolation of LGD for incomplete recoveries, development of
+risk differentiation function and collateral haircut modeling).
+
+To check out the current package functionalities run
+install.packages("LGDtoolkit") and help(package = "LGDtoolkit").
+To stay up to date with new development features follow the github page:
+https://github.com/andrija-djurovic/LGDtoolkit.
+
+I hope some of you will find the package useful.
+
+Kind regards,
+Andrija
+
+	[[alternative HTML version deleted]]
+
+
