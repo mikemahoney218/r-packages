@@ -120,3 +120,41 @@ Andrija
 	[[alternative HTML version deleted]]
 
 
+From ngre||er @end|ng |rom |q@h@rv@rd@edu  Wed Feb  1 18:49:30 2023
+From: ngre||er @end|ng |rom |q@h@rv@rd@edu (Greifer, Noah)
+Date: Wed, 1 Feb 2023 12:49:30 -0500
+Subject: [R-pkgs] {clarify}: Simulation-Based Inference for Regression Models
+Message-ID: <CALABNevL7o=4hmB2v2G2PQmeCUcX7oa7YuPMfZ_Q6Az2RoL-pQ@mail.gmail.com>
+
+Hello everyone,
+
+Our new package {clarify} has been released. {clarify} provides
+simulation-based inference as an alternative to the delta method for
+interpretable quantities derived from model parameters, like average
+marginal effects, dose-response functions, and predictions at
+representative values. Also provided are methods for combining such
+quantities across multiply imputed datasets.
+
+Those of you who have used Clarify for Stata or the retired R package
+{Zelig} will find similar and expanded capabilities in {clarify}.
+
+Install {clarify} using
+install.packages("clarify")
+
+CRAN page:
+https://cran.r-project.org/package=clarify
+
+{clarify} website:
+https://iqss.github.io/clarify/
+
+Thank you!
+
+-- 
+Noah Greifer, Ph.D.
+*Statistical Consultant and Programmer*
+*Institute for Quantitative Social Science | Harvard University*
+Pronouns: he/him
+
+	[[alternative HTML version deleted]]
+
+
