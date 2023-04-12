@@ -158,3 +158,36 @@ Pronouns: he/him
 	[[alternative HTML version deleted]]
 
 
+From Roger@B|v@nd @end|ng |rom nhh@no  Mon Apr 10 17:31:15 2023
+From: Roger@B|v@nd @end|ng |rom nhh@no (Roger Bivand)
+Date: Mon, 10 Apr 2023 17:31:15 +0200 (CEST)
+Subject: [R-pkgs] Retirement/archiving of rgdal,
+ rgeos and maptools October 2023
+Message-ID: <6253c881-857b-bc97-2420-d612a3549a3e@reclus2.nhh.no>
+
+The third report on the R-spatial evolution project has been published.
+
+https://r-spatial.org/r/2023/04/10/evolution3.html
+
+It links back to earlier blogs and presentations, and focuses on work that 
+maintainers of R packages and workflows using rgdal, rgeos and maptools 
+need to put in train now before the packages are archived on CRAN.
+
+The first changes will occur in June 2023, and the retiring packages will 
+be archived during October 2023. If you are giving a workshop or tutorial 
+during the Northern hemisphere summer, aim for June.
+
+If you still need more assistance after reading the project materials, 
+raise an issue on https://github.com/r-spatial/evolution/issues or email 
+me (issue better, less likely to be overlooked).
+
+-- 
+Roger Bivand
+Emeritus Professor
+Department of Economics, Norwegian School of Economics,
+Postboks 3490 Ytre Sandviken, 5045 Bergen, Norway.
+e-mail: Roger.Bivand at nhh.no
+https://orcid.org/0000-0003-2392-6140
+https://scholar.google.no/citations?user=AWeghB0AAAAJ&hl=en
+
+
