@@ -191,3 +191,42 @@ https://orcid.org/0000-0003-2392-6140
 https://scholar.google.no/citations?user=AWeghB0AAAAJ&hl=en
 
 
+From m@pjg @end|ng |rom br|@to|@@c@uk  Wed Apr 12 10:18:21 2023
+From: m@pjg @end|ng |rom br|@to|@@c@uk (Peter Green)
+Date: Wed, 12 Apr 2023 09:18:21 +0100
+Subject: [R-pkgs] DNAmixturesLite and KinMixLite
+Message-ID: <68d2e035-6cba-b6dd-71e8-872dc2ed1f12@bristol.ac.uk>
+
+Dear all,
+
+We are pleased to announce that CRAN now hosts our packages 
+DNAmixturesLite and KinMixLite.
+
+These are fully R-based versions of our packages DNAmixtures and KinMix, 
+which rely on a commercial software, HUGIN, for performing efficient 
+computations in Bayesian networks. The lite versions rely instead on 
+gRain for such computations.
+
+DNAmixtures provides statistical methods for DNA mixture analysis and 
+has been used to provide statistical evidence pertaining to DNA in 
+several criminal cases in the UK and Denmark. The purpose of the newly 
+released lite version is to allow users without a HUGIN software license 
+to experiment with the statistical methodology. While the lite version 
+aims to provide full functionality, it is noticeably less efficient than 
+the original DNAmixtures package. For details on implementation and 
+methodology see <https://dnamixtures.r-forge.r-project.org/>.
+
+KinMix builds upon DNAmixtures and is a toolbox of methods for inference 
+about relationships between contributors to a DNA mixture and other 
+individuals of known genotype: a basic example would be testing whether 
+a contributor to a mixture is the father of a child of known genotype. 
+KinMixLite builds upon DNAmixturesLite and provides most of the 
+functionality of the KinMix package, but with some loss of efficiency. 
+The package implements the methods introduced in Green, P. J. and 
+Mortera, J. (2017) <doi:10.1016/j.fsigen.2017.02.001> and Green, P. J. 
+and Mortera, J. (2021) <doi:10.1111/rssc.12498>.
+
+Regards,
+Therese Graversen and Peter Green
+
+
