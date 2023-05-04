@@ -230,3 +230,21 @@ Regards,
 Therese Graversen and Peter Green
 
 
+From me @end|ng |rom n@nx@me  Mon May  1 22:36:17 2023
+From: me @end|ng |rom n@nx@me (Nan Xiao)
+Date: Mon, 01 May 2023 16:36:17 -0400
+Subject: [R-pkgs] gsDesign2 1.0.8 is released
+Message-ID: <8e6617ab-a4aa-4a9c-927d-133e0cd846e5@app.fastmail.com>
+
+Dear all,
+
+A new version of gsDesign2 (1.0.8) is now on CRAN (https://cran.r-project.org/package=gsDesign2). gsDesign2 enables fixed or group sequential design under non-proportional hazards and supports highly flexible enrollment, time-to-event, and time-to-dropout assumptions.
+
+The key improvements in this version include refined naming conventions for options in the info_scale argument adhering to the tidyverse design guide, and bug fixes for computing the futility bounds. Please see the changelog (https://merck.github.io/gsDesign2/news/) for details.
+
+As the gsDesign2 package is still in its early stages, we're eager to continue refining its features and performance. We invite you to try out this new version and share your insights with us. Your feedback is invaluable in helping us develop a tool that meets the evolving needs of users.
+
+Cheers,
+-Nan
+
+
