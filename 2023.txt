@@ -248,3 +248,18 @@ Cheers,
 -Nan
 
 
+From Roger@B|v@nd @end|ng |rom nhh@no  Sat Jun 24 16:53:49 2023
+From: Roger@B|v@nd @end|ng |rom nhh@no (Roger Bivand)
+Date: Sat, 24 Jun 2023 14:53:49 +0000
+Subject: [R-pkgs] sp 2.0-0 released
+Message-ID: <SV0P279MB0475E8976F77C9F18136B497EE20A@SV0P279MB0475.NORP279.PROD.OUTLOOK.COM>
+
+A new version of the sp package, 2.0-0, has been published on CRAN. This new version defaults to using the sf package rather than the rgdal package, and deprecates use  of the rgeos package. These changes are described in https://r-spatial.org/r/2023/05/15/evolution4.html, and lead up to the planned archiving of the retiring packages: maptools, rgdal and rgeos in October 2023. This version issues invasive start-up messages in order to alert users to impending changes; maintainers of affected packages have already been warned.
+
+--
+Roger Bivand
+Emeritus Professor
+Norwegian School of Economics
+Postboks 3490 Ytre Sandviken, 5045 Bergen, Norway
+Roger.Bivand at nhh.no
+
