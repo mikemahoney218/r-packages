@@ -263,3 +263,25 @@ Norwegian School of Economics
 Postboks 3490 Ytre Sandviken, 5045 Bergen, Norway
 Roger.Bivand at nhh.no
 
+From me @end|ng |rom n@nx@me  Thu Jul 20 05:23:14 2023
+From: me @end|ng |rom n@nx@me (Nan Xiao)
+Date: Wed, 19 Jul 2023 23:23:14 -0400
+Subject: [R-pkgs] gsDesign 3.5.0 is released
+Message-ID: <f4414e37-3eb8-4933-8c80-40dff5371998@app.fastmail.com>
+
+Dear all,
+
+I'm thrilled to announce that a new version of gsDesign (3.5.0) is now on CRAN (https://cran.r-project.org/package=gsDesign). gsDesign supports group sequential clinical trial design, largely as presented in Jennison and Turnbull (2000).
+
+The 3.5.0 update introduces some significant enhancements:
+
+- New toInteger() function to convert gsDesign or gsSurv objects to integer sample size and event counts.
+- New toBinomialExact() function to convert time-to-event bounds to exact binomial for studies with low event rates.
+- New vignette on the fundamentals of asymptotics for group sequential design, and another vignette on the sequential probability ratio test for a single arm binary endpoint.
+
+We have also improved compatibility with the latest ggplot2 version and have introduced a new hex sticker logo. For the complete list of updates, please see the changelog (https://keaven.github.io/gsDesign/news/).
+
+Best regards,
+-Nan
+
+
