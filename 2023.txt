@@ -317,3 +317,44 @@ Norwegian School of Economics
 Postboks 3490 Ytre Sandviken, 5045 Bergen, Norway
 Roger.Bivand at nhh.no
 
+From th|@|@@rn| @end|ng |rom gm@||@com  Sun Oct 29 05:55:30 2023
+From: th|@|@@rn| @end|ng |rom gm@||@com (Arni Magnusson)
+Date: Sun, 29 Oct 2023 15:55:30 +1100
+Subject: [R-pkgs] Introducing the makeit package
+Message-ID: <CANrWemj66YMZY-amVVzOAkoS-fCLNR2BNaPftj1mKzxX5oJ6Bw@mail.gmail.com>
+
+Dear R community,
+
+Just a quick note about a new package on CRAN called makeit. Yesterday, I
+added a vignette and released as 1.0.1:
+https://cran.r-project.org/package=makeit
+https://cran.r-project.org/web/packages/makeit/vignettes/makeit.html
+
+It provides a simple but powerful function make() that works the same way
+as GNU Make. In short, it runs an R script if underlying files have
+changed, otherwise it does nothing. The first example in the vignette is:
+  make("analysis.R", "input.dat", "output.dat")
+The second example involves three scripts:
+  make("01_model.R", "data.dat", "results.dat")
+  make("02_plots.R", "results.dat", c("plots/A.png", "plots/B.png"))
+  make("03_tables.R", "results.dat", c("tables/A.csv", "tables/B.csv"))
+
+For R workflows, it can provide the same functionality as GNU Make but with
+fewer software requirements in terms of software installed and system path.
+The make calls() can be grouped together in a dedicated script, called
+something like _make.R, or conveniently called from within scripts to
+decide whether a certain part of the analysis needs to be (re)run or not.
+
+Any feedback is appreciated, via email or GitHub issues
+<https://github.com/arni-magnusson/makeit>.
+
+Best regards,
+Arni
+
+P.S. I originally wanted to call the package simply 'make', but was
+politely informed by the CRAN Team that this could mess with their
+extensive makefile infrastructure. So there we have it, makeit :)
+
+	[[alternative HTML version deleted]]
+
+
