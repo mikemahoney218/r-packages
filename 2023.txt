@@ -358,3 +358,55 @@ extensive makefile infrastructure. So there we have it, makeit :)
 	[[alternative HTML version deleted]]
 
 
+From j|ox @end|ng |rom mcm@@ter@c@  Fri Nov  3 13:44:34 2023
+From: j|ox @end|ng |rom mcm@@ter@c@ (John Fox)
+Date: Fri, 3 Nov 2023 08:44:34 -0400
+Subject: [R-pkgs] new cv package: cross-validation of regression models
+Message-ID: <e64f1971-9441-4779-88ed-153712cfbac3@mcmaster.ca>
+
+Georges Monette and I would like to announce a new package, cv, now on 
+CRAN, which implements cross-validation of regression models.
+
+Some of the functions supplied by the package:
+
+-   cv() is a generic function with a default method and computationally 
+efficient "lm" and "glm" methods, along with a method for a list of 
+competing models. There are also experimental "merMod", "lme", and 
+"glmmTMB" methods for mixed-effects models. cv() supports parallel 
+computations.
+
+-   mse() (mean-squared error) and BayesRule() are cross-validation 
+criteria ("cost functions"), suitable for use with cv().
+
+-   cvSelect() cross-validates a selection procedure for a regression 
+model. cvSelect() also supports parallel computations.
+
+-   selectStepAIC() is a model-selection procedure, suitable for use 
+with cvSelect(), based on the stepAIC() function in the MASS package.
+
+-   selectTrans() is a procedure for selecting predictor and response 
+transformations in regression, also suitable for use with cvSelect(), 
+based on the powerTransform() function in the car package.
+
+For additional information on using the cv package, see the 
+"Cross-validation of regression models" vignette, in the package and at 
+<https://cran.r-project.org/web/packages/cv/vignettes/cv.html>. The cv 
+package is designed to be extensible to other classes of regression 
+models and other model-selection procedures; for details, see the 
+"Extending the cv package" vignette, also in the package and at 
+<https://cran.r-project.org/web/packages/cv/vignettes/cv-extend.html>.
+
+Comments and suggestions would be appreciated. Bug reports and problems 
+can be filed at <https://github.com/gmonette/cv/issues>.
+
+Thank you for your attention,
+  John and Georges
+
+
+-- 
+John Fox, Professor Emeritus
+McMaster University
+Hamilton, Ontario, Canada
+web: https://www.john-fox.ca/
+
+
