@@ -410,3 +410,28 @@ Hamilton, Ontario, Canada
 web: https://www.john-fox.ca/
 
 
+From me @end|ng |rom n@nx@me  Mon Nov 20 17:08:25 2023
+From: me @end|ng |rom n@nx@me (Nan Xiao)
+Date: Mon, 20 Nov 2023 11:08:25 -0500
+Subject: [R-pkgs] gsDesign 3.6.0 is released
+Message-ID: <97509799-f612-4579-881f-06c78e3e905b@app.fastmail.com>
+
+Dear all,
+
+I'm excited to announce that a new version of gsDesign (3.6.0) is now on CRAN (https://cran.r-project.org/package=gsDesign). gsDesign supports group sequential clinical trial design, largely as presented in Jennison and Turnbull (2000).
+
+The 3.6.0 update introduces some significant new features and enhancements:
+
+- New gsSurvCalendar() function to enable group sequential design for time-to-event outcomes using calendar timing of interim analysis specification.
+- toInteger() and print.gsSurv() improvements for integer sample size and event count.
+- toBinomialExact() and gsBinomialExact() now have improved error checking in bound computations, error messages, and documentation.
+- New as_rtf() method for gsBinomialExact() objects to support RTF table outputs.
+
+We have also updated the gsDesign Shiny app to 2023.11.0. This version supports the new key features added in gsDesign 3.5.0 and 3.6.0.
+
+For the complete list of updates, please see the announcement: https://keaven.github.io/blog/gsdesign-3-6-0/.
+
+Best regards,
+-Nan
+
+
