@@ -435,3 +435,21 @@ Best regards,
 -Nan
 
 
+From me @end|ng |rom n@nx@me  Wed Dec 13 06:09:06 2023
+From: me @end|ng |rom n@nx@me (Nan Xiao)
+Date: Wed, 13 Dec 2023 00:09:06 -0500
+Subject: [R-pkgs] simtrial: Clinical Trial Simulation
+Message-ID: <79834370-a2ad-4a6a-8b55-19b29e998f8a@app.fastmail.com>
+
+Dear all,
+
+I am happy to announce that {simtrial} is now on CRAN (https://cran.r-project.org/package=simtrial). simtrial is a fast and extensible clinical trial simulation framework for time-to-event endpoints.
+
+This release brings a new tabular data processing engine powered by data.table for 3x to 5x faster simulations, a new parallelization adaptor with %dofuture%, a refreshed API that aligns with the gsDesign2 style guide, and new functions for zero early weight and analysis date. For a summary of the updates, please see the announcement: https://keaven.github.io/blog/simtrial-0-3-2/.
+
+I hope you find simtrial helpful. Please feel free to reach out with feedback or questions.
+
+Best regards,
+-Nan
+
+
