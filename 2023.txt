@@ -453,3 +453,31 @@ Best regards,
 -Nan
 
 
+From Den|@@Cou@|ne@u @end|ng |rom uott@w@@c@  Wed Dec 13 13:54:07 2023
+From: Den|@@Cou@|ne@u @end|ng |rom uott@w@@c@ (Denis Cousineau)
+Date: Wed, 13 Dec 2023 12:54:07 +0000
+Subject: [R-pkgs] ANOFA: Analysis of frequency data
+Message-ID: <aaeefcc6-8c10-4248-8db2-393c12e460e7@uottawa.ca>
+
+A package for the analysis of frequency data, ANOFA, has been released 
+on CRAN.
+
+With this package, it is now possible to analyze frequencies following 
+the logic of ANOVAs, by examining interaction effects and main effects, 
+or explore simple effects (with expected marginal frequencies) or 
+analyze one-degree-of-freedom orthogonal contrasts.
+
+If you were planning on doing a chi-square test on a contingency table, 
+think twice and read Sharpe (2015) https://*doi*.org/10.7275/tbfa-x148 . 
+Then you will consider running an ANOFA . Examples are given in 
+Laurencelle & Cousineau (2023) https://doi.org/10.20982/tqmp.19.2.p173
+
+Also, a simple function for plotting the frequencies along with 
+confidence intervals is shipped with the package.
+
+See the main documentation on https://dcousin3.github.io/ANOFA/
+
+Denis Cousineau.
+
+
+
