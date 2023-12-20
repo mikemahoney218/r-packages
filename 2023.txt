@@ -481,3 +481,37 @@ Denis Cousineau.
 
 
 
+From z|v@n@k@r@m@n @end|ng |rom gm@||@com  Sat Dec 16 19:04:25 2023
+From: z|v@n@k@r@m@n @end|ng |rom gm@||@com (Zivan Karaman)
+Date: Sat, 16 Dec 2023 19:04:25 +0100
+Subject: [R-pkgs] Copernicus Data Space Ecosystem API Wrapper
+Message-ID: <CAKtE6yMQVy4xQYjMWBaj7NkDk5Py8k2QNSt8zwDqH2=fnWYx1g@mail.gmail.com>
+
+Dear all,
+
+I am pleased to announce the release of a new package named 'CDSE' on CRAN.
+
+It provides direct access to the 'Copernicus Data Space Ecosystem' for
+R users. With this package, you can efficiently access the imagery
+from Sentinel-1, Sentinel-2, Sentinel-3, and Sentinel-5 missions and
+process and download data from the R environment.
+
+One of the significant benefits of this package is that you can
+download the satellite data that is limited to your area of interest
+instead of the entire image tiles (100 x 100 km) that are usually
+distributed by Copernicus.
+
+Although the software is compatible with any satellite images
+available in CDSE, it has been primarily tested with Sentinel-2
+images.
+
+This is the first version of the package, and your feedback and
+suggestions are welcome
+
+Please find more details and download the package from the following
+link: https://cran.r-project.org/package=CDSE
+
+Best regards,
+Zivan
+
+
