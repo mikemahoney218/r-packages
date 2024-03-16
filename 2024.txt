@@ -1,0 +1,126 @@
+From mzb@deve| @end|ng |rom gm@||@com  Mon Jan 22 03:06:10 2024
+From: mzb@deve| @end|ng |rom gm@||@com (Mauricio Zambrano-Bigiarini)
+Date: Sun, 21 Jan 2024 23:06:10 -0300
+Subject: [R-pkgs] hydroTSM back on CRAN (v0.7-0 released)
+Message-ID: <CAJ44-AkUGpQKQ+8Geuje+Hu8NeemG3DqMyv=jkZVEQKfNH=0uQ@mail.gmail.com>
+
+Dear all,
+
+After being archived on CRAN on 2023-10-1, hydroTSM is finally back on CRAN
+since January 18th: https://cran.r-project.org/package=hydroTSM.
+
+This new version 0.7-0 has several new functions, improvements, bugfixes,
+and a new dataset, mostly devoted to work with sub-daily and sub-hourly
+time series.
+
+*) New functions: baseflow, plot_pq, calendarHeatmap, subhourly2hourly,
+subhourly2nminutes, daily2weekly, subdaily2weekly, cmv, si.
+
+*) Improvements: climograph, (sub)daily2monthly, subdaily2daily,
+daily2annual, daily2monthly, subdaily2annual, hip, hydroplot, sname2plot,
+izoo2rzoo.
+
+A detailed description of the previous changes can be found in the new
+News.md file:
+https://cran.r-project.org/web/packages/hydroTSM/news/news.html
+
+Two vignettes illustrate the usage of the some of the main functions:
+
+1) Analysis of daily precipitation data:
+https://cloud.r-project.org/web/packages/hydroTSM/vignettes/hydroTSM_Daily_P_Vignette-knitr.pdf
+
+2) 1) Analysis of daily streamflow data:
+https://cloud.r-project.org/web/packages/hydroTSM/vignettes/hydroTSM_Daily_Q_Vignette-knitr.pdf
+
+If you use this package, please cite it correctly as:
+
+Zambrano-Bigiarini, Mauricio (2024). hydroTSM: Time Series Management and
+Analysis for Hydrological Modelling. R package version 0.7-0. URL:
+https://cran.r-project.org/package=hydroTSM. doi:110.5281/zenodo.839565
+
+Issues and enhancements can be requested on:
+https://github.com/hzambran/hydroTSM/issues
+
+All the best,
+
+Mauricio
+
+
+Mauricio Zambrano-Bigiarini, PhD
+Associate Professor, Universidad de La Frontera
+Associate Researcher, (CR)2 FONDAP Center
+Phone: +56 45 259 2812 <+56+45+259+2812>
+e-mail: mauricio.zambrano at ufrontera.cl
+[image: webpage] <https://hzambran.github.io/> [image: ORCID]
+<https://orcid.org/0000-0002-9536-643X> [image: Github]
+<https://github.com/hzambran> [image: Linkedin]
+<http://www.linkedin.com/in/hzambran/>
+
+	[[alternative HTML version deleted]]
+
+
+From mzb@deve| @end|ng |rom gm@||@com  Mon Jan 22 06:30:00 2024
+From: mzb@deve| @end|ng |rom gm@||@com (Mauricio Zambrano-Bigiarini)
+Date: Mon, 22 Jan 2024 02:30:00 -0300
+Subject: [R-pkgs] hydroGOF back on CRAN (v0.5-4 released)
+Message-ID: <CAJ44-Amtui+ZZCtM4JRMMLJW3d3EkUkBkbVx=b=epWep9v_C=A@mail.gmail.com>
+
+Dear all,
+
+After being archived on CRAN on  2023-10-16 , hydroGOF is finally back on
+CRAN since January 21th: https://cran.r-project.org/package=hydroGOF.
+
+This new version 0.5-4 includes:
+
+*) the following new functions:
+
+    -) KGElf (Garc?a et al., 2017),
+    -) sKGE (Fowler et al., 2018),
+    -) KGEnp (Pool et al., 2018),
+    -) dr (Willmott et al., 2012),
+    -) ubRMSE (Entekhabi et al., 2010),
+    -) wNSE (Hundecha and Bardossy, 2004),
+    -) rSpearman,
+    -) R2
+
+*) improvements: all the functions allow you to apply a user-defined
+function (e.g., log, sqrt) to both 'sim' and 'obs' before computing the
+goodness-of-fit measure.
+
+A detailed description of the previous changes can be found for the 0.5-0
+version in the new News.md file:
+https://cran.r-project.org/web/packages/hydroGOF/news/news.html
+
+A much improved vignette illustrate the usage of some of the main functions:
+
+*) Analysis of daily precipitation data:
+https://cloud.r-project.org/web/packages/hydroGOF/vignettes/hydroGOF_Vignette.pdf
+
+If you use this package, please cite it correctly as:
+
+Zambrano-Bigiarini, Mauricio (2024). hydroGOF: Goodness-of-fit functions
+for comparison of simulated and observed hydrological time series. R
+package version 0.5-4. URL:https://cran.r-project.org/package=hydroGOF.
+doi:10.5281/zenodo.839854.
+
+Issues and enhancements can be requested on:
+https://github.com/hzambran/hydroGOF/issues
+
+All the best,
+
+Mauricio
+
+
+Mauricio Zambrano-Bigiarini, PhD
+Associate Professor, Universidad de La Frontera
+Associate Researcher, (CR)2 FONDAP Center
+Phone: +56 45 259 2812 <+56+45+259+2812>
+e-mail: mauricio.zambrano at ufrontera.cl
+[image: webpage] <http://hzambran.github.io/> [image: ORCID]
+<https://orcid.org/0000-0002-9536-643X> [image: Github]
+<https://github.com/hzambran> [image: Linkedin]
+<http://www.linkedin.com/in/hzambran/>
+
+	[[alternative HTML version deleted]]
+
+
