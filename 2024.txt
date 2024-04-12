@@ -162,3 +162,28 @@ Tel: 01 40 27 27 19
 Website:http://vincentaudigier.weebly.com/
 
 
+From RYAN@A@PETERSON @end|ng |rom CUANSCHUTZ@EDU  Thu Mar 28 22:24:11 2024
+From: RYAN@A@PETERSON @end|ng |rom CUANSCHUTZ@EDU (Peterson, Ryan)
+Date: Thu, 28 Mar 2024 21:24:11 +0000
+Subject: [R-pkgs] New package - fastTS
+Message-ID: <SJ2PR05MB10332B2BBCA79839072290B63DB3B2@SJ2PR05MB10332.namprd05.prod.outlook.com>
+
+Hi R enthusiasts,
+
+I am happy to announce a new package available on CRAN: fastTS (https://cran.r-project.org/web/packages/fastTS/). fastTS is especially useful for large time series with exogenous features and/or complex seasonality (i.e. with multiple modes), allowing for possibly high-dimensional feature sets. The method can also facilitate inference on exogenous features, conditional on a series' autoregressive structure. The regularization-based method is considerably faster than competitors, while often producing more accurate predictions. See our open-access publication for more information: https://doi.org/10.1177/1471082X231225307
+
+The package has several vignettes, one of which is an detailed walkthrough of an application to an (included) data set consisting of an hourly series of arrivals into the University of Iowa Emergency Department with concurrent local temperature.
+
+If you encounter any issues or would like to make contributions, please do so via the package's GitHub page: https://github.com/petersonR/fastTS
+
+Best,
+Ryan
+
+Ryan Peterson
+Assistant Professor
+Department of Biostatistics and Informatics
+University of Colorado - Anschutz Medical Campus
+
+	[[alternative HTML version deleted]]
+
+
