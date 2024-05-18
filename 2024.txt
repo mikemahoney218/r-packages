@@ -187,3 +187,47 @@ University of Colorado - Anschutz Medical Campus
 	[[alternative HTML version deleted]]
 
 
+From v|to@muggeo @end|ng |rom un|p@@|t  Thu May 16 10:47:33 2024
+From: v|to@muggeo @end|ng |rom un|p@@|t (Vito Muggeo)
+Date: Thu, 16 May 2024 10:47:33 +0200
+Subject: [R-pkgs] segmented 2.1-0 is released
+Message-ID: <dbad3dff-1d81-4439-9f1f-e33daafcc9d0@unipa.it>
+
+dear R users,
+I am pleased to announce that segmented 2.1-0 is now available on CRAN.
+
+segmented focuses on estimation of breakpoints/changepoints of 
+segmented, i.e. piecewise linear, relationships in (generalized) linear 
+models. Starting with version 2.0-0, it is also possible to model 
+stepmented, i.e. piecewise constant, effects.
+
+In the last release both models may be fitted via a formula interface, 
+such as
+
+segreg(y ~ seg(x1, npsi=2) + seg(x2) + z)
+
+stepreg(y ~ seg(x1, npsi=2) + seg(x2) +seg(x3, npsi=3) + z, family=poisson)
+
+There is virtually no limit in the number of covariates and 
+corresponding number of changepoints to be estimated.
+
+thank you,
+kind regards,
+Vito
+
+
+-- 
+=================================================
+Vito M.R. Muggeo, PhD
+Professor of Statistics
+Dip.to Sc Econom, Az e Statistiche
+Universit? di Palermo
+viale delle Scienze, edificio 13
+90128 Palermo - ITALY
+tel: 091 23895240; fax: 091 485726
+http://www.unipa.it/persone/docenti/m/vito.muggeo
+Assoc Editor: Statist Modelling, Statist Meth Appl
+past chair, Statistical Modelling Society
+coordinator, PhD Program in Econ, Businss, Statist
+
+
