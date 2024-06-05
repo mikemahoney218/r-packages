@@ -231,3 +231,44 @@ past chair, Statistical Modelling Society
 coordinator, PhD Program in Econ, Businss, Statist
 
 
+From gb@rc@ro|| @end|ng |rom gm@||@com  Sat Jun  1 13:27:16 2024
+From: gb@rc@ro|| @end|ng |rom gm@||@com (Giulio Barcaroli)
+Date: Sat, 1 Jun 2024 13:27:16 +0200
+Subject: [R-pkgs] QGA 1.0 is released
+Message-ID: <7ce4d41b-92e3-435c-a9e8-2e238f74c52e@gmail.com>
+
+Dear R users,
+
+I am pleased to announce that QGA 1.0 is now available on CRAN.
+
+QGA implements the Quantum Genetic Algorithm, as proposed by Han and Kim 
+in 2000, and is an R implementation derived from the Python one by 
+Lahoz-Beltra in 2016.
+
+Under this approach, each solution is represented as a sequence of 
+(qu)bits. Simulating the quantum paradigm, these qubits are in a 
+superposition state: when measuring them, they collapse in a 0 or 1 
+state. After measurement, the solution's fitness is calculated as in 
+usual genetic algorithms.
+
+The evolution at each iteration is oriented by the application of two 
+quantum gates to the amplitudes of the qubits: (1) a rotation gate 
+(always); (2) a Pauli-X gate (optionally). The rotation is based on the 
+theta angle values: higher values allow a quicker evolution, and lower 
+values avoid local maxima. The Pauli-X gate is equivalent to the 
+classical mutation operator and determines the swap between alfa and 
+beta amplitudes of a given qubit.
+
+The package has been developed in such a way as to permit a complete 
+separation between the 'engine', and the particular problem subject to 
+combinatorial optimization. This is evident in the available examples, 
+that come with the package, illustrating the application of QGA to 
+different problems: knapsack, traveler salesman, and clustering.
+
+Thank you, kind regards,
+
+Giulio Barcaroli
+
+	[[alternative HTML version deleted]]
+
+
