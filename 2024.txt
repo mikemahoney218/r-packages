@@ -309,3 +309,79 @@ Chao Liu
 	[[alternative HTML version deleted]]
 
 
+From jen@@oeh|@ch|@ege| @end|ng |rom truec|u@ter@com  Mon Sep 23 22:45:10 2024
+From: jen@@oeh|@ch|@ege| @end|ng |rom truec|u@ter@com (=?UTF-8?Q?Jens_Oehlschl=C3=A4gel?=)
+Date: Mon, 23 Sep 2024 22:45:10 +0200
+Subject: [R-pkgs] bit, bit64, ff and greeNsort
+Message-ID: <b11255da-dd8d-4731-8b3c-0e8a2bdab5e0@truecluster.com>
+
+Dear package maintainers,
+
+Dear users of packages `bit`, `bit64`, `ff`,
+
+Everyone interested in sustainable sorting algorithms,
+
+I submitted updated versions for the upcoming R 4.5.0. The are only 
+minor changes (see the NEWS files) but there is one important change in 
+bit64:
+
+ ??? o setting options(integer64_semantics="new")
+ ????? gives the better semantics suggested by Ofek Shilon.
+ ????? Downstream package authors: please test and adjust to the new 
+semantics,
+ ????? we plan to make that the default.
+
+After 25 years volunteer work for the R community, that was my last 
+combined submission for packages `bit`, `bit64` and `ff`.
+
+I learned S+ in 1996 and supported R's 1.0 release in 2000 with bug 
+testing, a small code contribution to `pairs` and motivating the 
+core-team to replace 'NA' with NA_character_.
+
+In 2007 Daniel Adler and I published `ff`: the first R package allowing 
+big out of memory data.frames was a nail in the coffin of SAS dominance 
+and helped R into the big data era.
+
+2009 and 2012 followed `bit`, `bit64` to enhance R's data types somewhat 
+with `bit` vectors and signed `integer64`. Package `bit` supported 
+efficient selection in `ff`. Package `bit64` was an emergency 
+development in order to establish rather `integer64' than another 
+`int64` package that had too expensive performance.
+
+Since 2011 I work for an employer that does not use R, and maintenance 
+of R packages is a little rewarded burden.
+
+Since 2010 my priorities shifted to fighting global heating by 
+developing more sustainable sorting algorithms that provide better 
+trade-offs between memory investments, compute costs and adaptivity to 
+easier input patterns. My R&D project was successfully completed 2024 
+with theory and design of new symmetric sorting algorithms that can 
+replace Quicksort, Mergesort and Timsort. Lots of info at greeNsort.org. 
+I have an R package `greeNsort` on github with a research testbed that 
+can measure RAM, CPU and RAPL energy for ?150 equally tuned sorting 
+algorithms on multiple test patterns.
+
+Since 24.2.2022 my priorities are on strengthening resilience of 
+European civil society.
+
+Hence I happily accept the generous offer of Michael Chirico to carry 
+forward the maintenance of packages `bit` and `bit64`. Please support 
+him in the difficult task of developing very close to the core as a 
+normal package author.
+
+I will continue bug-fixing `ff` as time permits, although a modern C++ 
+rewrite would be preferable, which
+
+1) supports long vectors
+
+2) avoids copying between Mapped Memory and R's memory
+
+3) simplifies the package, particularly removes the "virtual window" 
+complexity
+
+All the best
+
+
+Jens Oehlschl?gel
+
+
