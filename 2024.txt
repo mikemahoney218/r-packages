@@ -385,3 +385,28 @@ All the best
 Jens Oehlschl?gel
 
 
+From unw|n @end|ng |rom m@th@un|-@ug@burg@de  Wed Sep 25 15:27:13 2024
+From: unw|n @end|ng |rom m@th@un|-@ug@burg@de (Antony Unwin)
+Date: Wed, 25 Sep 2024 15:27:13 +0200
+Subject: [R-pkgs] GmooG, ChessGmooG, FilmsGmooG, ComradesM
+Message-ID: <DC8E6342-2A10-4A66-8D0C-007D663DC4F6@math.uni-augsburg.de>
+
+Dear all,
+
+GmooG, ChessGmooG, FilmsGmooG, ComradesM are dataset packages accompanying my book ?Getting (more out of) Graphics? (CRC Press 2024).  They are now available on CRAN.  R code producing the graphics in the book will be put online in a few weeks.
+
+Regards
+
+Antony
+
+Professor Antony Unwin
+Mathematics Institute,
+University of Augsburg, 
+86135 Augsburg, Germany
+
+
+
+
+	[[alternative HTML version deleted]]
+
+
