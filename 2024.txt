@@ -410,3 +410,83 @@ University of Augsburg,
 	[[alternative HTML version deleted]]
 
 
+From e@ @end|ng |rom enr|co@chum@nn@net  Sun Oct 20 18:25:58 2024
+From: e@ @end|ng |rom enr|co@chum@nn@net (Enrico Schumann)
+Date: Sun, 20 Oct 2024 18:25:58 +0200
+Subject: [R-pkgs] PMwR 1.0 (Portfolio Management with R)
+Message-ID: <875xpmyc4p.fsf@enricoschumann.net>
+
+Dear all,
+
+version 1.0-1 of package PMwR is on CRAN now.
+
+PMwR stands for 'Portfolio Management with R', and the
+package provides tools for the practical management of
+financial portfolios: backtesting investment and trading
+strategies, computing profit/loss and returns, analysing
+trades, handling lists of transactions, reporting, and
+more.
+
+The manual [1] provides all the details; a tutorial on
+backtesting with the package is available on SSRN [2].
+
+Comments/corrections/remarks/suggestions are very welcome;
+please send them to the maintainer (me) directly.
+
+Kind regards
+      Enrico
+
+
+
+[1] https://enricoschumann.net/R/packages/PMwR/manual/PMwR.html
+[2] https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3374195
+
+
+-- 
+Enrico Schumann
+Lucerne, Switzerland
+https://enricoschumann.net
+
+
+From e@ @end|ng |rom enr|co@chum@nn@net  Sun Oct 20 18:28:40 2024
+From: e@ @end|ng |rom enr|co@chum@nn@net (Enrico Schumann)
+Date: Sun, 20 Oct 2024 18:28:40 +0200
+Subject: [R-pkgs] NMOF 2.10-0 (Numerical Methods and Optimization in Finance)
+Message-ID: <871q0ayc07.fsf@enricoschumann.net>
+
+Dear all,
+
+version 2.10-0 of package NMOF is on CRAN now.
+
+NMOF stands for 'Numerical Methods and Optimization in
+Finance', and it accompanies the book with the same
+name, written by Manfred Gilli, Dietmar Maringer and
+Enrico Schumann.[1]
+
+Since the last announcement on this list in 2021,
+several functions have been added to the package, such
+as 'barrierOptionEuropean' for valuing barrier options,
+and function 'minMAD' for computing minimum-MAD
+portfolios.  Also, existing functionality has been
+expanded. For instance, 'French', which downloads data
+from Kenneth French's data library, now supports
+additional datasets.  See the NEWS file [2] for all
+changes.  The documentation has also been expanded.
+
+Comments/corrections/remarks/suggestions are -- as always --
+very welcome; please send them to the maintainer (me)
+directly.
+
+Kind regards
+      Enrico
+
+[1] https://enricoschumann.net/NMOF.htm
+[2] https://enricoschumann.net/R/packages/NMOF/NEWS
+
+
+-- 
+Enrico Schumann
+Lucerne, Switzerland
+https://enricoschumann.net
+
+
